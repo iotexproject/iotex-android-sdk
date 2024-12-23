@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.iotexproject</groupId>
-    <artifactId>iotex-antenna-java</artifactId>
+    <artifactId>iotex-antenna-java-legacy</artifactId>
     <version>0.7.0</version>
     <packaging>jar</packaging>
     <name>IoTeX Antenna Java</name>
@@ -100,7 +100,7 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15to18</artifactId>
-            <version>1.71</version>
+            <version>1.78</version>
         </dependency>
         <dependency>
             <groupId>com.lambdaworks</groupId>
@@ -122,22 +122,22 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>4.29.1</version>
-        </dependency>
-        <dependency>
-            <groupId>io.grpc</groupId>
-            <artifactId>grpc-okhttp</artifactId>
-            <version>1.69.0</version>
+            <version>3.18.0</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-protobuf</artifactId>
-            <version>1.69.0</version>
+            <version>1.43.2</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-stub</artifactId>
-            <version>1.69.0</version>
+            <version>1.43.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-okhttp</artifactId>
+            <version>1.40.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
